@@ -1,0 +1,9 @@
+# Ignore DS_Store
+.DS_Store
+
+# Ignore IntelliJ and its project files
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
