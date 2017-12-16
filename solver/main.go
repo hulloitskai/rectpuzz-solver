@@ -33,6 +33,7 @@ func displayResults(gridPtr *[][]uint) {
 		println("Found the following solution:")
 		drawGridWithRects(gridPtr, rects)
 	}
+	_ = readlnWithPrompt("\n...press any key to quit...")
 }
 
 func showIntro() {
@@ -77,7 +78,7 @@ func generateGrid(cols uint, rows uint) (grid [][]uint) {
 func clearScreen() {
 	var command *exec.Cmd
 	if runtime.GOOS == "windows" {
-		command = exec.Command("cls")
+		command = exec.Command("cmd", "/c", "cls")
 	} else {
 		command = exec.Command("clear")
 	}
