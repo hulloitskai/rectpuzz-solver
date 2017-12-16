@@ -19,7 +19,3 @@
 # [[override]]
 #  name = "github.com/x/y"
 #  version = "2.4.0"
-
-[[constraint]]
-  revision = "ef0fa5b75d0fa2b31323463783a6e90353771116"
-  name = "github.com/buger/goterm"
