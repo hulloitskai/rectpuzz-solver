@@ -11,8 +11,26 @@ the original [Racket](https://racket-lang.org) implementation (<1 ms for a 20 x 
 
 The `main` package implements the function as a command line tool (WIP). 
 
+**Check out the [video demo](https://youtu.be/l_vsUksOWCE)!**
+
 ---
 
-### Usage
+## Usage
+### Using the library
 1. Download this repository as a zip, and place it in the `vendor` folder under your project root.
 2. Use `import "github.com/steven-xie/rectpuzz-solver/rectpuzz` as needed.
+
+### Running the executable binary
+Head over to [the releases](https://github.com/steven-xie/rectpuzz-solver/releases) and grab the latest version. Make sure you get the one that matches your computer's architecture!
+
+#### A Note for Linux/Mac users
+
+If you're running on Mac/Linux, you may need to give the binary executable permissions using the terminal, like this:
+``` bash
+chmod +x solver-mac-x64
+```
+
+Then, run the executable either by double clicking it, or by typing `./solver-mac-x64` in your terminal.
+
+*Make sure that you're in the same directory as the binary when you do this!*
+
